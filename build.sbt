@@ -8,5 +8,7 @@ scalaVersion := "2.9.1"
 
 scalacOptions ++= Seq("-deprecation", "-unchecked")
 
+testOptions in Test += Tests.Argument(TestFrameworks.ScalaCheck, "-minSuccessfulTests", "500")
+
 libraryDependencies += "org.scala-tools.testing" %% "scalacheck" % "1.9"
 
