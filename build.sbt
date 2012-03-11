@@ -2,7 +2,7 @@ name := "scala-heterogenous-map"
 
 version := "1.0-SNAPSHOT"
 
-organization := "org.scalatools"
+organization := "com.kennknowles"
 
 scalaVersion := "2.9.1"
 

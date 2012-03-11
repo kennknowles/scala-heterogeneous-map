@@ -1,4 +1,4 @@
-package org.scalatools.hmap
+package scala.collection.hmap
 package test
 
 import org.scalacheck._

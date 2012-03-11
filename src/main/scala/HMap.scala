@@ -1,4 +1,4 @@
-package org.scalatools.hmap
+package scala.collection.hmap
 
 trait HMap[TypedKey[_]] { self =>
   def get[T](key: TypedKey[T]) : Option[T]

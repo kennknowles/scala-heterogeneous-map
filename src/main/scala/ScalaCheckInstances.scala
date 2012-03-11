@@ -1,4 +1,4 @@
-package org.scalatools.hmap
+package scala.collection.hmap
 
 import org.scalacheck._
 import org.scalacheck.Arbitrary._

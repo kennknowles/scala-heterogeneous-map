@@ -1,7 +1,7 @@
-package org.scalatools.hmap
+package scala.collection.hmap
 
 import java.net.URI
-                                                                                                                                                                                                                                          
+
 case class WithPhantom[T, Phantom: Manifest](v: T) {
   private val m = implicitly[Manifest[Phantom]]
 
